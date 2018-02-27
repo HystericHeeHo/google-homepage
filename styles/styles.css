@@ -9,13 +9,15 @@ body {
 
 }
 nav ul li {
-  display: inline-block;
-  margin-top: 10px;
-  margin-right: 15px;
+  display: inline;
   text-decoration: none;
+  position: relative;
+  margin-right: 15px;
+  margin-top: 50px;
 }
 
 nav ul li a {
+  padding-top: 50px;
   text-decoration: none;
   color:#000;
 }
@@ -43,10 +45,10 @@ nav ul li a:hover {
 
 .left-nav {
   float: left;
-  padding-right: .5rem;
 }
 
 .right-nav {
+
   float: right;
   position: relative;
   padding-right: .5rem;
@@ -81,9 +83,13 @@ nav ul li a:hover {
   margin: 0 auto;
   width: 300px;
   height: 200px
+  position: static;
+  top: 222px;
+  left: 0;
+right: 0;
 }
 
-.search input {
+input {
   position: relative;
   right: 50px;
   bottom: 40px;
@@ -96,11 +102,11 @@ nav ul li a:hover {
   border-radius: 3px;
 }
 
-.search input:hover {
+input:hover {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
 }
 
-.search input:focus {
+input:focus {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
 }
 
